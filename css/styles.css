@@ -1,0 +1,30 @@
+.gallery {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.gallery-item {}
+
+.gallery-link {}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
+.gallery-image:hover {
+    transform: scale(1.04);
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    z-index: 1000;
+}
